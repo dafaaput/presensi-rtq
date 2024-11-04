@@ -63,7 +63,7 @@ h2 {
   margin: clamp(10px, 2vw, 16px) 0;
   border-radius: 8px;
   width: 100%;
-  max-width: 200px;
+  max-width: 50%;
   font-size: clamp(0.9rem, 2vw, 1rem);
   text-align: center;
 }

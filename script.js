@@ -169,7 +169,7 @@ const qrCodeSuccessCallback = async (decodedText) => {
 
 const config = {
   fps: 30,
-  qrbox: { width: 100, height: 100 },
+  qrbox: { width: 150, height: 150 },
   aspectRatio: 1.0,
 };
 
