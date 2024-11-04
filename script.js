@@ -174,7 +174,7 @@ const config = {
 };
 
 html5QrCode
-  .start({ facingMode: "user" }, config, qrCodeSuccessCallback)
+  .start({ facingMode: "environment" }, config, qrCodeSuccessCallback)
   .catch((err) =>
     showStatus("Gagal memulai scanner QR. Pastikan kamera diizinkan.", true)
   );
